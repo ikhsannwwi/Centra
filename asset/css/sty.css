@@ -650,7 +650,9 @@ header{
 }
 
 @media (max-width:768px) {
-    
+    .slid-rating__{
+        overflow: hidden;
+    }
     .slide-row__{
         width: 1000px;
         
