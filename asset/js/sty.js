@@ -125,7 +125,7 @@ const autoSlide = () => {
     if(carousel.scrollLeft - (carousel.scrollWidth - carousel.clientWidth) > -1 || carousel.scrollLeft <= 0) return;
 
     positionDiff = Math.abs(positionDiff); // making positionDiff value to positive
-    let firstImgWidth = firstImg.clientWidth + 14;
+    let firstImgWidth = firstImg.clientWidth + 15;
     // getting difference value that needs to add or reduce from carousel left to take middle img center
     let valDifference = firstImgWidth - positionDiff;
 
@@ -164,10 +164,10 @@ const dragStop = () => {
 }
 
 carousel.addEventListener("mousedown", dragStart);
-carousel.addEventListener("touchstart", dragStart);
+// carousel.addEventListener("touchstart", dragStart);
 
 document.addEventListener("mousemove", dragging);
-carousel.addEventListener("touchmove", dragging);
+// carousel.addEventListener("touchmove", dragging);
 
 document.addEventListener("mouseup", dragStop);
-carousel.addEventListener("touchend", dragStop);
+// carousel.addEventListener("touchend", dragStop);
