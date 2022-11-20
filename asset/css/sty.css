@@ -620,16 +620,6 @@ header{
     height: 100%;
     overflow: hidden;
 }
-.slidrating__{
-    margin-bottom: 10vh;
-}
-.slidrating__ h1{
-    text-align: center;
-    margin-bottom: 10vh;
-    font-weight: 500;
-    font-family: 'Alexandria', sans-serif;
-
-}
 .indicator__{
     /* display: block; */
     margin-left: 40%;
@@ -685,6 +675,8 @@ header{
         margin: 2px;
     }
     .cont__{
+        width: 250px;
+        height: 350px;
         top: 20%;
         left: 20%;
         margin: 0  ;

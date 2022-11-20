@@ -24,7 +24,7 @@ var ratingBtn = document.getElementsByClassName('btn__');
 var ratingSlide = document.getElementById('slide-rating');
 
 ratingBtn[0].onclick = function(){
-    if (window.innerWidth>768) {
+    if (window.innerWidth<768) {
         ratingSlide.style.transform = 'translateX(0px)';
     }if(window.innerWidth>1200){
         ratingSlide.style.transform = 'translateX(0px)';
@@ -35,7 +35,7 @@ ratingBtn[0].onclick = function(){
     this.classList.add('active-rating__');
 }
 ratingBtn[1].onclick = function(){
-    if (window.innerWidth>768) {
+    if (window.innerWidth<768) {
         ratingSlide.style.transform = 'translateX(-240px)';
     }if(window.innerWidth>1200){
         ratingSlide.style.transform = 'translateX(-800px)';
@@ -46,7 +46,7 @@ ratingBtn[1].onclick = function(){
     this.classList.add('active-rating__');
 }
 ratingBtn[2].onclick = function(){
-    if (window.innerWidth>768) {
+    if (window.innerWidth<768) {
         ratingSlide.style.transform = 'translateX(-490px)';
     }if(window.innerWidth>1200){
     ratingSlide.style.transform = 'translateX(-1600px)';
@@ -57,7 +57,7 @@ ratingBtn[2].onclick = function(){
     this.classList.add('active-rating__');
 }
 ratingBtn[3].onclick = function(){
-    if (window.innerWidth>768) {
+    if (window.innerWidth<768) {
         ratingSlide.style.transform = 'translateX(-740px)';
     }if(window.innerWidth>1200){
         ratingSlide.style.transform = 'translateX(-2400px)';
