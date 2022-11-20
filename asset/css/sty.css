@@ -737,6 +737,7 @@ header{
     /* white-space: nowrap; */
     cursor: pointer;
     overflow: hidden;
+    /* width: calc(100%/2); */
 }
 .wraper__ i{
     width: 46px;
@@ -757,17 +758,20 @@ header{
 .wraper__ i:last-child{
     right:40px;
 }
-.carousel__{
-    width: calc(100%);
-}
+
 .carousel-col__{
-    margin: 15px;
+    margin:0 5px;
     object-fit: cover;
+    width: 200px;
+    height: 300px;
     /* width: calc(100% / 4); */
 }
 
 .produk-img__{
     width: 100%;
+}
+.produk-img__ img{
+    width: 150px;
 }
 .produk-detail__{
     display: block;
@@ -777,9 +781,12 @@ header{
 }
 .produk-detail__ p{
     word-wrap: break-word;
-    font-size: 15px;
+    font-size: 10px;
     font-weight: 200;
-    line-height: 24px;
+    line-height: 11px;
+}
+.produk-detail__ h3{
+    font-size: 12px;
 }
 .discount-produk__{
     display: flex;
@@ -787,13 +794,15 @@ header{
 .discount-produk__ p{
     color: #8a8a8a;
     text-decoration: line-through;
-    
+    font-size: 8px;
 }
 .discount-produk__ span{
-    border-radius: 5px;
+    border-radius: 4px;
     text-align: center;
-    font-weight: 400;
-    width: 35px;
+    font-weight: 200;
+    font-size: 8px;
+    width: 20px;
     background-color: rgb(255, 0, 0);
     color: #ffb8b8;
+    margin-left: 0.3rem;
 }
